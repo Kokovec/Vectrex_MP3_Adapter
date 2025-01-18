@@ -12,20 +12,22 @@ The adapter provides for stereo output and you can attach an old-school pair of 
 
 The adapter receives commands from the Vectrex via a crude SPI interface (CPOL=0, CPHA=0, MSB First).<br />
 The pinouts are:<br />
-![image](https://github.com/user-attachments/assets/eaedf890-28b8-4a1d-8ca9-6bde4c6b0099)
+
+![Pinout](https://github.com/user-attachments/assets/8f0dcf03-13b5-44d4-bd10-0aafabd79302)
 
 The Playing Flag is a signal that lets the Adapter know if a tune is playing or paused (there's no stop command).<br />
 1 = Playing<br />
 0 = Paused<br />
 Since the MP3 Player takes some time to process a command, the signal can lag by up to 1 second from the Vectrex sending a command to play or pause.
 
-![image](https://github.com/user-attachments/assets/ceebc8e3-ac21-416d-95fa-d5a03fe1049a)
+![Signals](https://github.com/user-attachments/assets/7ae88090-a534-4bdd-87a4-c4643296a73d)
 
 The SPI serial data is 16 bits long (2 bytes) where:<br />
 First Byte = Command<br />
 Second Byte = Data<br />
 
-![image](https://github.com/user-attachments/assets/4fae59f7-a693-4969-9eb5-d5fd61884835)
+![Commands](https://github.com/user-attachments/assets/8739a1a2-ec28-463b-8158-85f8eef71325)
+
 
 The Adpater uses a PI PICO coupled with a cheap but effective MP3 player module (https://diyables.io/products/mp3-player-module).<br />
 <br />
