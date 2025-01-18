@@ -1,6 +1,7 @@
 # Vectrex_MP3_Adapter
+![IMG_4028 - Copy](https://github.com/user-attachments/assets/20ccb394-113b-4cba-8f7a-0260219995ce)
 
-![IMG_4028 - Copy](https://github.com/user-attachments/assets/73ef259a-1360-4992-972f-5f8a7e94e581)
+
 This is a very basic MP3 player for the Vectrex.
 
 MP3 (or WAV) files can be loaded onto an SD Card and commands can be issued from the Vectrex to Play, Pause, etc.<br />
